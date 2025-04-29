@@ -1,0 +1,19 @@
+Requirements -
+Windows OS
+CMake Build System
+C++ Compiler
+Python Interpreter
+
+Prerequisite - 
+python -m venv venv // in root directory
+.\venv\Scripts\activate
+pip install pillow
+
+To build - 
+.\run.bat build [debug|release] // default debug
+
+To view image only - 
+.\run.bat
+
+Image generated -
+image.ppm in root directory
